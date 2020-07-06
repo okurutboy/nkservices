@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
 
@@ -8,35 +8,34 @@ body {
     font-size: 14px;
     font-family: 'Quicksand', sans-serif;
 }
-
 .loader {
-    display: flex;
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    background: white;
-    z-index: 99999;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  position:fixed;
+  width: 100%;
+  height: 100%;
+  background:white;
+     z-index: 99999;
+  align-items: center;
+  justify-content: center;
 }
 
 @keyframes arrows {
-    0%,
-    100% {
-        color: black;
-        transform: translateY(0);
-    }
-
-    50% {
-        color: #3AB493;
-        transform: translateY(20px);
-    }
+  0%,
+  100% {
+    color: black;
+    transform: translateY(0);
+  }
+  50% {
+    color: #3AB493;
+    transform: translateY(20px);
+  }
 }
 
 .loader span {
-    --delay: 0s;
-    animation: arrows 1s var(--delay) infinite ease-in;
+  --delay: 0s;
+  animation: arrows 1s var(--delay) infinite ease-in;
 }
+
 
 .headertop {
     padding: 20px;
@@ -56,19 +55,18 @@ body {
     background: url('images/dotted.jpg')   ;
     background-size: contain;
 }
-
-.phone {
-    background: #090;
-    color: white;
-    font-weight: bold;
-    width: 200px;
-    text-align: center;
-    padding: 5px;
-    border-radius: 5px;
+.phone{
+      background: #090;;
+    color:white;
+    font-weight:bold;
+    width:200px;
+    text-align:center;
+    padding:5px;
+    border-radius:5px;
+   
 }
-
 a {
-    color: white;
+    color:white;
 }
 
 .com ul {
@@ -89,8 +87,8 @@ a {
     position: fixed;
     left: 0;
     bottom: 0;
-    width: 10%;
-    margin-left: 90%;
+    width: 40%;
+    margin-left: 70%;
     color: white;
     text-align: center;
 }
@@ -98,7 +96,7 @@ a {
 .best {
     height: 95vh;
 }
-
+ 
 .com ul li {
     padding: 5px;
     color: #000080;
@@ -285,10 +283,10 @@ a {
     .spcid {
         display: non;
     }
-
-    .datawp {
-        width: 50px;
-        padding-bottom: 50px;
+    .datawp{
+        width:50px;
+        padding-bottom:50px;
+        
     }
 }
 
@@ -401,11 +399,18 @@ a {
 .note .link:hover {
     text-decoration: underline;
 }
-
-.btn-primary {
-    background: green;
+.btn-primary{
+    background:green;
 }
+
 
 a {
-    color: #000080;
+     color: #000080;
 }
+
+
+
+
+
+
+
