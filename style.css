@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #444444;
+    font-size: 14px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.loader {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: white;
+    z-index: 99999;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes arrows {
+    0%,
+    100% {
+        color: black;
+        transform: translateY(0);
+    }
+
+    50% {
+        color: #3AB493;
+        transform: translateY(20px);
+    }
+}
+
+.loader span {
+    --delay: 0s;
+    animation: arrows 1s var(--delay) infinite ease-in;
+}
+
+.headertop {
+    padding: 20px;
+    width: 70%;
+    display: flex;
+    margin: auto;
+    display: flex;
+}
+
+.headertop li {
+    flex: 1;
+    text-align: center;
+    color: #444444;
+}
+
+.about {
+    background: url('images/dotted.jpg')   ;
+    background-size: contain;
+}
+
+.phone {
+    background: #090;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+a {
+    color: white;
+}
+
+.com ul {
+    display: block;
+    list-style-type: none;
+}
+
+.list-unstyled {
+    list-style-type: none;
+    display: flex;
+}
+
+.list-unstyled li {
+    flex: 1;
+}
+
+.wp {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 10%;
+    margin-left: 90%;
+    color: white;
+    text-align: center;
+}
+
+.best {
+    height: 95vh;
+}
+
+.com ul li {
+    padding: 5px;
+    color: #000080;
+}
+
+.datainfo ul .active {
+    border-bottom: 7px solid #000080;
+    border-radius: 7px;
+}
+
+.ppl {
+    color: #000080;
+    font-weight: bold;
+}
+
+.searchtab {
+    padding-top: 10px;
+    display: flex;
+}
+
+.nav-link {
+    color: #444444 !important;
+    font-weight: bold;
+}
+
+.services {
+    padding-top: 30px;
+}
+
+.stab button {
+    height: 50px;
+}
+
+.stab {
+    flex: 1;
+}
+
+.fa-check-circle {
+    color: #006cff;
+}
+
+.fa-3x {
+    color: #006cff;
+    margin-bottom: 10px;
+}
+
+.bl {
+    font-weight: bold;
+    color: #006cff;
+}
+
+.cover {
+    height: 80vh;
+    background: url(assets/images/wall.jpg) no-repeat;
+    background-size: cover;
+    padding-top: 10vh;
+}
+
+.desc {
+    width: 60%;
+    padding: 20px;
+    background-color: rgba(255,255,255,0.5);
+}
+
+.nkbtn {
+    background: #ffd700;
+    height: 50px;
+    width: 200px;
+    margin-right: 20px;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.cleaningservice {
+    display: flex;
+}
+
+.sevo {
+    border: 1px solid lightgrey;
+    text-align: center;
+    border-radius: 10px;
+    height: 80%;
+}
+
+.sevo1 {
+    margin: px;
+    box-shadow: 1px 5px 5px 7px lightgrey;
+}
+
+.datahd {
+    padding: 10px;
+    width: 97%;
+    margin: auto;
+    border-bottom: 1px solid 
+#c3c3c3;
+}
+
+.best {
+    padding-top: 60px;
+    text-align: center;
+}
+
+.prod {
+    width: 70%;
+    height: 400px;
+    margin: auto;
+}
+
+.spc {
+    margin-bottom: 40px;
+}
+
+.mid {
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.blue {
+    background: blue;
+    height: 50px;
+}
+
+.yus {
+    height: 500px;
+    margin: auto;
+    width: 80%;
+}
+
+.us {
+    display: flex;
+}
+
+.dataus {
+    flex: 1;
+}
+
+.xus {
+    padding-top: 30px;
+}
+
+.about {
+    padding: 30px;
+}
+
+.card-body ul {
+    list-style-type: none;
+}
+
+@media only screen and (max-width: 800px){
+    .desc {
+        width: 100%;
+    }
+
+    .sevo {
+        border: none;
+    }
+
+    .solutionm {
+        display: none;
+    }
+
+    .dd {
+        display: none;
+    }
+
+    .solution1 {
+        text-align: center;
+        height: ;
+    }
+
+    .dsol {
+        margin-bottom: 400px;
+    }
+
+    .licience {
+        padding-top: 500px;
+    }
+
+    .spcid {
+        display: non;
+    }
+
+    .datawp {
+        width: 50px;
+        padding-bottom: 50px;
+    }
+}
+
+.water {
+    height: 400px;
+    width: 60%;
+    margin: auto;
+    border-bottom: none;
+}
+
+.whatsapp {
+    position: fixed;
+    width: 150px;
+    height: 150px;
+    z-index: 300;
+}
+
+.content-wrapper {
+    min-height: 100%;
+    position: relative;
+}
+
+.get-in-touch {
+    max-width: 650px;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.get-in-touch .title {
+    text-align: center;
+    font-family: Raleway, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 36px;
+    line-height: 48px;
+    padding-bottom: 48px;
+}
+
+.contact-form .form-field {
+    position: relative;
+    margin: 32px 0;
+}
+
+.contact-form .input-text {
+    display: block;
+    width: 100%;
+    height: 36px;
+    border-width: 0 0 2px 0;
+    border-color: #000;
+    font-family: Lusitana, serif;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+.contact-form .input-text:focus {
+    outline: none;
+}
+
+.contact-form .input-text:focus + .label,
+.contact-form .input-text.not-empty + .label {
+    transform: translateY(-24px);
+}
+
+.contact-form .label {
+    position: absolute;
+    left: 20px;
+    bottom: 11px;
+    font-family: Lusitana, serif;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #888;
+    cursor: text;
+    transition: transform 0.2s ease-in-out;
+}
+
+.contact-form .submit-btn {
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    font-family: Raleway, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.note {
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    font-family: Lusitana, serif;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.note .link {
+    color: #888;
+    text-decoration: none;
+}
+
+.note .link:hover {
+    text-decoration: underline;
+}
+
+.btn-primary {
+    background: green;
+}
+
+a {
+    color: #000080;
+}
